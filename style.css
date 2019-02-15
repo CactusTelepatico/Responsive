@@ -2,18 +2,19 @@
   Border: 0%;
   padding: 0%;
   margin: 0%;
-  box-sizing: border-box;
 }
 .container{
   background-color: #222831;
 
+
 }
-.cloud1{
-  height: 20%;
-  border-radius: 100% 100% 100% 100%;
-  border:2px solid red;
-  background-color: #393e46;
+body{
+  background-color: #222831;
 }
+.middle{
+  height: 75%;
+}
+
 .row{
   width: 50%;
   height: 15%;
