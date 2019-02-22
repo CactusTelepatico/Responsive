@@ -8,7 +8,19 @@
   background-color: #222831;
 }
 .navbar{
-  background-color: transparent;
+  background-color: #00adb5;
+}
+.btn-secondary{
+  background-color:#00adb5;
+}
+.btn{
+  border:0px;
+}
+.btn-secondary:hover {
+background-color: transparent;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+background-color: transparent;
 }
 .nav-link{
     background-color:#393e46;
@@ -23,7 +35,7 @@ body{
   background-color: #222831;
 }
 .middle{
-  height: 75%;
+  height: 95%;
 }
 
 .row{
