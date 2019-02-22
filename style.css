@@ -2,11 +2,13 @@
   Border: 0%;
   padding: 0%;
   margin: 0%;
+
 }
 .containerP{
   width: 100%;
   background-color: #222831;
 }
+
 .navbar{
   background-color: #00adb5;
 }
@@ -36,6 +38,7 @@ body{
 }
 .middle{
   height: 95%;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .row{
@@ -80,4 +83,49 @@ body{
     border-right: 40px solid transparent;
     border-bottom: 80px solid #00adb5;
 
+}
+.upCont{
+     width: 99%;
+     height: 30%;
+     border-left: 3px solid #555;
+     border-right: 3px solid #555;
+     border-top: 3px solid #555;
+     background: #00adb5;
+     -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(20deg);
+}
+.midCont{
+     width: 97%;
+     height: 20%;
+     border-left: 3px solid #555;
+     border-right: 3px solid #555;
+     background: #393e46;
+     transition: all 1.4s;
+}
+.midCont:hover{
+  height: 180%;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.downCont{
+       width: 99%;
+       height: 30%;
+       border-left: 3px solid #555;
+       border-right: 3px solid #555;
+       border-bottom: 3px solid #555;
+       background: #00adb5;
+       -webkit-transform: skew(-20deg);
+       -moz-transform: skew(-20deg);
+       -ms-transform: skew(-20deg);
+       -o-transform: skew(-20deg);
+       transform: skew(-20deg);
 }
