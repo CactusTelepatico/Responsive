@@ -11,6 +11,9 @@
   width: 100%;
   background-color: #222831;
 }
+.navbar{
+  background-color:#00adb5;
+}
 p2{
   opacity: 0;
   position:relative;
@@ -26,6 +29,13 @@ p2{
     height: 1%;
 
 }
+.carousel{
+  opacity: 0;
+  transition: all 1.4s;
+}
+.row3:hover .carousel{
+  opacity: 1;
+}
 .img1{
   border-radius: 8px;
   max-width: 100%;
@@ -33,6 +43,10 @@ p2{
 }
 .navbar{
   background-color: #00adb5;
+
+}
+.sticky-bottom{
+  height: 15%;
 }
 .btn-secondary{
   background-color:#00adb5;
@@ -63,7 +77,9 @@ body{
     background-color: #393e46;
 
 }
-
+.foot{
+  position: sticky;
+}
 .middle{
   height: 95%;
 }
@@ -173,6 +189,7 @@ h4{
 .row2:hover +.vox3{
   margin-top:248%;
 }
+
 .row3:hover +.row4{
   margin-top:42%;
 }
@@ -213,12 +230,15 @@ h4{
 }
 .list-group-item{
   opacity: 0;
+  width: 1%;
   font-size: 1px;
   transition: all 1.4s;
 }
 .row2:hover .list-group-item {
   opacity: 1;
   font-size: 16px;
+
+  width: 100%;
 
 }
 
