@@ -148,11 +148,14 @@ body{
     height: 880%;
     color: white;
 }
+h4{
+  margin-left: 35%;
+}
 .row1:hover .midCont1{
     height: 250%;
 }
 .row2:hover .midCont2{
-    height: 180%;
+    height: 920%;
 }
 .row3:hover .midCont3{
     height: 180%;
@@ -163,15 +166,12 @@ body{
 .row0:hover +.vox1{
   margin-top:237%;
 }
-.foot{
-  position: sticky;
 
-}
 .row1:hover +.vox2{
   margin-top:62%;
 }
 .row2:hover +.vox3{
-  margin-top:42%;
+  margin-top:248%;
 }
 .row3:hover +.row4{
   margin-top:42%;
@@ -192,6 +192,9 @@ body{
     margin-top:0%;
     transition: all 1.4s;
 }
+.row2{
+  transition: all 1.4s;
+}
 .row3{
   transition: all 1.4s;
 }
@@ -208,6 +211,17 @@ body{
   font-size: 16px;
 
 }
+.list-group-item{
+  opacity: 0;
+  font-size: 1px;
+  transition: all 1.4s;
+}
+.row2:hover .list-group-item {
+  opacity: 1;
+  font-size: 16px;
+
+}
+
 .row1:hover  .progress{
   opacity: 1;
   font-size: 16px;
