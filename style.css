@@ -193,6 +193,14 @@ h4{
 .row3:hover +.row4{
   margin-top:62%;
 }
+.row4:hover p4{
+  opacity: 1;
+}
+p4{
+  transition: all 1.4s;
+  opacity: 0;
+  color: white;
+}
 .vox1{
 
 
