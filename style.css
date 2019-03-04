@@ -174,7 +174,7 @@ h4{
     height: 920%;
 }
 .row3:hover .midCont3{
-    height: 180%;
+    height: 224%;
 }
 .row4:hover .midCont4{
     height: 80%;
@@ -191,7 +191,7 @@ h4{
 }
 
 .row3:hover +.row4{
-  margin-top:42%;
+  margin-top:62%;
 }
 .vox1{
 
