@@ -472,3 +472,36 @@ h6 {
        -o-transform: skew(-20deg);
        transform: skew(-20deg);
 }
+@media (min-width: 800px) {
+
+  .row0:hover .midCont{
+      height: 250%;
+      color: white;
+  }
+  .row0:hover +.vox1{
+    margin-top:26%;
+  }
+  .row0:hover  p2{
+    opacity: 1;
+    font-size: 16px;
+
+  }
+  .row1:hover .midCont1{
+      height: 200%;
+  }
+  .row1:hover +.vox2{
+    margin-top:20%;
+  }
+  .row2:hover .midCont2{
+      height: 360%;
+  }
+  .row2:hover +.vox3{
+    margin-top:40%;
+  }
+  .row3:hover .midCont3{
+      height: 630%;
+  }
+  .row3:hover +.row4{
+    margin-top:68%;
+  }
+}
